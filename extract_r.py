@@ -73,5 +73,10 @@ if __name__ == '__main__':
    # Flow of execution starts here
    ext = input("Enter the extensions you want to find: ")
    path = input("Enter the directory to search: ")
+   target = input("Enter the directory you want these files extracted to (ignore for ./extracted): ")
 
-   extract_r(path, ext)
+   target = target.strip()
+   if target == '':
+      extract_r(path, ext)
+   else:
+      extract_r(path, ext, target)
