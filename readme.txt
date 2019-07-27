@@ -10,4 +10,4 @@ rmdup:: removes duplicate files in a folder
 
 rmdup_r:: recursively removes duplicate files in a folder and its subfolders
 
-rename:: contains a utility function that generates a name for a file that is already stored in ./extracted or ./gathered or ./[your choice of name here]
+rename:: contains a utility function that generates a name for a file that is already stored in ./extracted or ./gathered or ./[your choice of name here] utility, not meant for use
